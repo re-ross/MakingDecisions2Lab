@@ -47,7 +47,12 @@ let evensArr = [];
 */
 
 //Code Here
-
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 === 0) {
+    evensArr.push(nums[i]);
+  } else console.log("oops");
+}
+console.log(evensArr);
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
