@@ -195,10 +195,10 @@ switch (letterGrade) {
 //Code Here
 for (let i = 0; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
-    console.log("Fizzbuzz!");
+    console.log("Devmountain!");
   } else if (i % 3 === 0) {
-    console.log("Fizz!");
+    console.log("Dev!");
   } else if (i % 5 === 0) {
-    console.log("Buzz!");
+    console.log("Mountain!");
   } else console.log(i);
 }
